@@ -49,10 +49,14 @@ h1{
 }
 
 .list{
+  background-color: #000;
+  color: #fff;
   display: inline-block;
   margin-right: 35px;
   padding: 5px;
 }
+
+
 
 aside{
   background-size: cover;
@@ -102,6 +106,7 @@ aside{
 }
 
 figure.features, img{
+  
   display: inline-block;
   align-content: center;
   border-radius: 30%;
@@ -109,6 +114,43 @@ figure.features, img{
   height: 100px;
   margin-right: 25px;
   padding: 0;
+}
+
+.content-2{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 15px red;
+  margin: 25px;
+  padding: 0 30px;
+  
+}
+
+video{
+  background-color: red;
+  border: solid 6px blue;
+  border-radius: 50px;
+  width: 250px;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+li{
+  padding: 0 10px;
+  margin: 10px;
+}
+
+li, .vidi{
+
+  background-color: black;
+  font-weight: 700;
+  list-style-type: lower-roman;
+}
+.hide{
+  display: none;
 }
 
 
